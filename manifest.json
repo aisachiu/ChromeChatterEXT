@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Chatter Extension",
+  "description": "This extension attempts to save and get data from Google Apps Engine app in form of a chat app",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
